@@ -7,7 +7,7 @@ const TypeDefs = require('.schema.js')
 const Resolvers = require('.resolvers.js')
 
 const db = 'mongodb+srv://kanav306:comp3078_access@comp3123.bxzhg.mongodb.net/101278920_comp3133_assig1?retryWrites=true&w=majority'
-const port = process.env.PORT || 8000
+const port = process.env.PORT || 3000
 
 // MongoDB Connection
 mongoose.connect(db, { useNewUrlParser: true , useUnifiedTopology: true})
